@@ -10,6 +10,7 @@
 
 @interface ViewController : UIViewController
 
+-(IBAction)onDialTapped:(id)sender;
 
 @end
 

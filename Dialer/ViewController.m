@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(void)onDialTapped:(id)sender {
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt:*67-555-555-5555"]];
+}
+
 @end
